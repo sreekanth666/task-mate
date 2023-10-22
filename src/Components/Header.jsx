@@ -18,7 +18,7 @@ function Header() {
                     </div>
                     </div>
                     <div className="col-auto">
-                        <button className='btn btn-primary rounded-pill fw-semibold' style={{fontSize:'small'}}>Open Google Calendar</button>
+                        <button className='btn btn-primary rounded-pill fw-semibold' style={{fontSize:'small'}} href="https://calendar.google.com/" target="_blank">Open Google Calendar</button>
                     </div>
                 </div>
             </div>

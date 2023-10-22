@@ -16,3 +16,17 @@ export const getTasks = async() => {
 export const getMembers = async() => {
     return commonAPI("GET", `${serverURL}/members`, "")
 }
+
+export const getTeams = async() => {
+    return commonAPI("GET", `${serverURL}/teams`, "")
+}
+
+export const deleteTask = async(id) => {
+    return commonAPI("DELETE", `${serverURL}/tasks/${id}`, {})
+}
+
+export const updateStatus = async(id, body) => {
+    return commonAPI("PUT", `${serverURL}/tasks/${id}`, body)
+}
+
+
