@@ -10,15 +10,6 @@ function Header() {
             <div className='ms-5 me-5'>
                 <hr />
             </div>
-            <div className="container" style={{fontSize:'small'}}>
-                <div className='row'>
-                    <div className="col">
-                    <div className="container fw-semibold">
-                        <span className='grey'><i class="fa-regular fa-calendar"></i> Today</span><br />20 October 2023
-                    </div>
-                    </div>
-                </div>
-            </div>
         </>
     )
 }
