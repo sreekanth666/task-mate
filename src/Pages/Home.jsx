@@ -297,6 +297,7 @@ function Home() {
                         <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Select Task</label>
                                 <select class="form-select" aria-label="Default select exampleInputEmail1" required onChange={(e) => setNewStatus(e.target.value)}>
+                                    <option value="Assigned">Assigned</option>
                                     <option value="Completed">Completed</option>
                                     <option value="Over Due">Over Due</option>
                                     <option value="Terminated">Terminated</option>
