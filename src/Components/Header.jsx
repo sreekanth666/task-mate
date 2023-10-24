@@ -17,9 +17,6 @@ function Header() {
                         <span className='grey'><i class="fa-regular fa-calendar"></i> Today</span><br />20 October 2023
                     </div>
                     </div>
-                    <div className="col-auto">
-                        <button className='btn btn-primary rounded-pill fw-semibold' style={{fontSize:'small'}} href="https://calendar.google.com/" target="_blank">Open Google Calendar</button>
-                    </div>
                 </div>
             </div>
         </>
